@@ -1,2 +1,4 @@
 # Environmental-instrument
-instrument using environment 
+The Environmental Instrument translates data from its surroundings into frequencies. This project was conceived when my composition class instructor assigned a "non-standard notation piece that incorporated and element of randomness". The instrument does this by using three sensors that control separate waveforms.: a light sensor; a temperature sensor,;and a motion sensor. The light sensor controls the most prevalent frequency, meaning that more light will equal higher frequencies, and less light will equal lower frequencies. Similarly, the temperature sensor changes its frequency positively with with increased temperatures, and negatively with decreased temperatures. The pitch, roll, and yaw all control separate frequencies as well. Again, a negative or positive pitch, roll, and yaw, will control the frequencies respectively. These sensors are read and turned into frequencies by using a Teensy 3.2, and the Teensy audio library.
+
+An example of this piece being performed can be seen <a href="https://soundcloud.com/kokonama/apartment-106">here</a> on my Soundcloud account, Kokonama.
